@@ -1,4 +1,4 @@
-# V2X Panel — Unified Deployment Reference
+# SulgX Panel — Unified Deployment Reference
 # Copy the values below into your platform's environment variables & start command.
 
 start_command = "gunicorn -k uvicorn.workers.UvicornWorker main:app --bind 0.0.0.0:$PORT"
